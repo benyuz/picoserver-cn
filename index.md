@@ -1,12 +1,12 @@
 ---
 layout: home
 title: PicoServer - 轻量级零依赖 .NET Web 能力胶水库
-description: 轻量级零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,极简开发
+description: 省心轻量零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,胶水特性
 
 hero:
   name: "PicoServer"
   text: "为你的 .NET 程序添加 Web 能力"
-  tagline: "轻量、跨平台、零依赖、高性能、胶水特性、AOT、极简开发"
+  tagline: "省心、轻量、跨平台、零依赖、AOT、胶水特性、高性能"
   image:
     src: /logo.png
     alt: PicoServer

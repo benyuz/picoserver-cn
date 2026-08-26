@@ -1,12 +1,12 @@
 ---
 layout: home
 title: PicoServer - Lightweight Zero-dependency .NET Web Library
-description: Lightweight zero-dependency .NET Web capability glue library, cross-platform, high-performance, AOT support, minimal development
+description: Hassle-free, lightweight, zero-dependency .NET Web capability glue library, cross-platform, high-performance, AOT support, glue features
 
 hero:
   name: "PicoServer"
   text: "Add Web Capabilities to Your .NET Applications"
-  tagline: "Lightweight, Cross-platform, Zero-dependency, High-performance, Glue Features, AOT, Minimal Development"
+  tagline: "Hassle-free, Lightweight, Cross-platform, Zero-dependency, AOT, Glue Features, High-performance"
   image:
     src: /logo.png
     alt: PicoServer

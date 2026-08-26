@@ -8,7 +8,7 @@
 <p align="center">轻量级 .NET Web 能力胶水库</p>
 
 <p align="center">
-  跨平台 · 高性能 · 零依赖 · AOT · 极简开发
+  省心 · 轻量 · 跨平台 · 零依赖 · AOT · 胶水特性 · 高性能
 </p>
 
 <p align="center">

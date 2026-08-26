@@ -8,7 +8,7 @@
 <p align="center">Lightweight .NET Web Capability Glue Library</p>
 
 <p align="center">
-  Cross-Platform · High Performance · Zero Dependencies · AOT · Minimalist Development
+  Hassle-free · Lightweight · Cross-platform · Zero-dependency · AOT · Glue Features · High-performance
 </p>
 
 <p align="center">

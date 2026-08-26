@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "PicoServer 官方文档",
-  description: "轻量级零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,极简开发",
+  description: "省心轻量零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,胶水特性",
   base: '/',
   lastUpdated: true, 
   head: [
@@ -12,13 +12,13 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
     ['meta', { property: 'og:title', content: 'PicoServer - 轻量级零依赖 .NET Web 能力胶水库' }],
-    ['meta', { property: 'og:description', content: '轻量级零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,极简开发' }],
+    ['meta', { property: 'og:description', content: '省心轻量零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,胶水特性' }],
     ['meta', { property: 'og:url', content: 'https://picoserver.cn' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:image', content: 'https://picoserver.cn/logo.png' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
     ['meta', { name: 'twitter:title', content: 'PicoServer - 轻量级零依赖 .NET Web 能力胶水库' }],
-    ['meta', { name: 'twitter:description', content: '轻量级零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,极简开发' }],
+    ['meta', { name: 'twitter:description', content: '省心轻量零依赖 .NET Web 能力胶水库,跨平台,高性能,支持 AOT,胶水特性' }],
     ['meta', { name: 'twitter:image', content: 'https://picoserver.cn/logo.png' }],
     ['script', {}, `
       var _hmt = _hmt || [];
