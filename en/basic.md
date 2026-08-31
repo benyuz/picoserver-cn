@@ -315,12 +315,15 @@ MyAPI.MapDelete("/api/user/{id}", AddressOf DeleteUser)
 
 ### Service Control Methods
 
+`StartServer` accepts a host / IP argument (1.7.7+) to control which network interface is bound and who may reach the service.
+
 ```csharp
-MyAPI.StartServer();                      // Start server, default port 8090
-MyAPI.StartServer(8891);                  // Start server, specify port
-MyAPI.StartServer("127.0.0.1");           // Localhost only
-MyAPI.StartServer("127.0.0.1", 8891);     // Localhost + specify port
-MyAPI.StopServer();                       // Stop server
+MyAPI.StartServer();                        // Start server, default port 8090, all interfaces
+MyAPI.StartServer(8891);                    // Start server, specify port, all interfaces
+MyAPI.StartServer("127.0.0.1");             // Localhost only
+MyAPI.StartServer("127.0.0.1", 8891);       // Localhost + specify port
+MyAPI.StartServer("192.168.1.100", 8891);   // Bind a specific LAN interface
+MyAPI.StopServer();                         // Stop server
 ```
 
 ## 5. Cookie Management

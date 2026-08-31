@@ -15,6 +15,10 @@ PicoServer 作为 Web 能力胶水库，以轻量级 HTTP 服务器核心基础�
 
 > 推荐使用 PicoServer 最新版本，保障功能完整性，极简设计，没有破坏性更新，可放心升级。
 
+## V1.7.7
+- ➕ `StartServer` 新增主机 / IP 重载，可指定监听地址：`StartServer("127.0.0.1")`、`StartServer("192.168.1.100", 8090)`。
+- ⚠️ 监听 `127.0.0.1` 等回环地址时，Windows 无需管理员权限，默认 `+` 仍需。
+
 ## V1.7.6
 - ➕ JWT 鉴权新增 Token 黑名单功能，支持 `Add`、`IsBlacklisted`、`Remove`、`CleanExpired` 方法，实现安全的 Token 注销机制。详见 [安全与鉴权](/security)。
 - ➕ `AddJwtTokenVerify` 新增 `CleanupIntervalMinutes` 参数，用于控制黑名单自动清理过期 token 的间隔时间（分钟）。默认为 `0`，表示不启动自动清理。

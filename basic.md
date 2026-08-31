@@ -315,12 +315,15 @@ MyAPI.MapDelete("/api/user/{id}", AddressOf DeleteUser)
 
 ### 服务控制方法
 
+`StartServer` 支持指定主机 / IP（1.7.7+），用于限定服务监听的网卡与访问范围。
+
 ```csharp
-MyAPI.StartServer();                      // 开启服务，默认端口 8090
-MyAPI.StartServer(8891);                  // 开启服务，指定端口
-MyAPI.StartServer("127.0.0.1");           // 限定本机访问
-MyAPI.StartServer("127.0.0.1", 8891);     // 限定本机+指定端口
-MyAPI.StopServer();                       // 停止服务
+MyAPI.StartServer();                        // 开启服务，默认端口 8090，监听所有地址
+MyAPI.StartServer(8891);                    // 开启服务，指定端口，监听所有地址
+MyAPI.StartServer("127.0.0.1");             // 限定本机访问
+MyAPI.StartServer("127.0.0.1", 8891);       // 限定本机 + 指定端口
+MyAPI.StartServer("192.168.1.100", 8891);   // 限定内网指定网卡访问
+MyAPI.StopServer();                         // 停止服务
 ```
 
 ## 5. Cookie 管理

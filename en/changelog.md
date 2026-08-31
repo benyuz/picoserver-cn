@@ -15,6 +15,10 @@ PicoServer, as a Web capability glue library, is supported by lightweight HTTP s
 
 > Recommended to use the latest version of PicoServer for complete functionality. Minimalist design with no breaking changes, safe to upgrade.
 
+## V1.7.7
+- ➕ `StartServer` adds a host/IP overload to bind a specific address: `StartServer("127.0.0.1")`, `StartServer("192.168.1.100", 8090)`.
+- ⚠️ On Windows, loopback addresses such as `127.0.0.1` need no administrator privileges; the default `+` still does.
+
 ## V1.7.6
 - ➕ JWT authentication adds Token blacklist feature, supporting `Add`, `IsBlacklisted`, `Remove`, `CleanExpired` methods, enabling secure token revocation. See [Security & Auth](/en/security) for details.
 - ➕ `AddJwtTokenVerify` adds `CleanupIntervalMinutes` parameter to control blacklist auto-cleanup interval (minutes). Default is `0`, meaning no auto cleanup.

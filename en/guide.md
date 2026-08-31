@@ -8,7 +8,7 @@ next:
 
 # 💡 Quick Start
 
-> Default listening port is `8090`. On Windows, if binding fails, make sure to grant the application administrator privileges. It is recommended to use the **latest version** of PicoServer to ensure full functionality.
+> Default listening port is `8090`. On Windows, if binding fails, grant the application administrator privileges; if localhost-only access is enough, switch to `StartServer("127.0.0.1")` (1.7.7+) to avoid the elevation requirement. It is recommended to use the **latest version** of PicoServer to ensure full functionality.
 
 ## 1. Install PicoServer
 
